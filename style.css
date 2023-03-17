@@ -41,6 +41,8 @@ nav{
     border-bottom: 1px solid #ffffff;
     font-weight: 700;
 }
+
+
 /* navbar and header style end */
 
 /* Banner style start */
@@ -64,6 +66,7 @@ nav{
     position: absolute;
     top: 630px;
     right: 100px;
+    box-shadow: 5px 5px 50px black;
 }
 .profile{
     display: flex;
@@ -116,3 +119,69 @@ nav{
     color: #BDBDBD;
 }
 /* Footer style end */
+
+@media screen and (max-width:600px) {
+    /* Navbar and header style */
+    /* nav{
+        flex-direction: column;
+    } */
+
+.nav-items{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background-color: #181719;
+    width: 101%;
+    position: absolute;
+   top: 100px;
+   left: 0;
+   right: 0;
+   bottom: 0;
+
+}
+.nav-item{
+    margin: 20px 0;
+}
+.line{
+    border-radius: 10px;
+    width: 35px;
+    height: 5px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+}
+.cross{
+   font-size: 50px;
+   display: none;
+}
+
+/* Banner style start */
+#banner{
+   flex-direction: column;
+}
+.hero-img{
+    width: 350px;
+}
+.author-img{
+    width: 40px;
+    border-radius: 50px;
+}
+.author{
+    width: 250px;
+    padding: 10px;
+    top: 680px;
+    right: 50px;
+}
+.caption{
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.banner-description{
+    padding-right: 20px;
+}
+
+/* Banner style end */
+
+}
