@@ -29,7 +29,9 @@ nav{
 .nav-item{
     margin: 0 20px;
 }
-
+#nav-container{
+    display: block;
+}
 .logo{
     font-family: 'Crimson Pro', serif;
     font-weight: 200;
@@ -40,6 +42,9 @@ nav{
 .active{
     border-bottom: 1px solid #ffffff;
     font-weight: 700;
+}
+#cross{
+    display: none;
 }
 
 
@@ -158,8 +163,8 @@ nav{
     background-color: #ffffff;
 }
 #cross{
+    display: none;
    font-size: 40px;
-   display: none;
    margin-left: 120px;
    cursor: pointer;
 }
