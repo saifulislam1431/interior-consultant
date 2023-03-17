@@ -10,9 +10,13 @@ body{
     background-color: #181719;
     color: #ffffff;
 }
+/* Container style start */
 .container{
     padding: 40px 30px;
 }
+/* Container style end */
+
+/* Navbar and header style */
 nav{
     display: flex;
     justify-content: space-between;
@@ -37,9 +41,10 @@ nav{
     border-bottom: 1px solid #ffffff;
     font-weight: 700;
 }
+/* navbar and header style end */
+
+/* Banner style start */
 #banner{
-    /* display: grid;
-    grid-template-columns: repeat(2,1fr); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +97,9 @@ nav{
 #read-more{
     font-weight: 600;
 }
+/* Banner style end */
 
+/* Footer style start */
 #footer{
     text-align: center;
     margin-top: 150px;
@@ -108,3 +115,4 @@ nav{
     font-weight: 600;
     color: #BDBDBD;
 }
+/* Footer style end */
